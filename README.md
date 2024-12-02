@@ -1,3 +1,8 @@
+# Mon portfolio
+A partir du template vCard de @codewithsadee, j'ai apporté mes modiifcations aux dossiers et aux scripts afin de le faire correspondre à mes informations.
+ 
+
+
 # vCard - Personal portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
