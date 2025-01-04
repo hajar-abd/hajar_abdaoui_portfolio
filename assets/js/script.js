@@ -140,20 +140,25 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
+// Initialisation : afficher "À propos" par défaut
+document.querySelector('[data-page="about"]').classList.add("active");
+document.querySelector('[data-nav-link="about"]').classList.add("active");
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
+// Ajouter des événements à chaque lien de navigation
+navigationLinks.forEach(link => {
+  link.addEventListener("click", function () {
+    const targetPage = this.getAttribute("data-nav-link"); // Correspondance basée sur data-nav-link
+    pages.forEach(page => {
+      if (page.dataset.page === targetPage) {
+        page.classList.add("active"); // Activer la section correspondante
       } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
+        page.classList.remove("active"); // Désactiver les autres sections
       }
-    }
+    });
 
+    navigationLinks.forEach(nav => nav.classList.remove("active")); // Désactiver les autres liens
+    this.classList.add("active"); // Activer le lien actuel
+
+    window.scrollTo(0, 0); // Retourner en haut de la page
   });
-}
+});
