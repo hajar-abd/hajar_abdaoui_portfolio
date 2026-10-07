@@ -1,37 +1,75 @@
-# Hajar Abdaoui — Portfolio & Projets 🚀
+# Hajar Abdaoui - Data Science, IA & Santé
 
-Bienvenue sur le code source de mon portfolio personnel. Ce site web présente mon parcours, mes compétences et mes projets en **Data Science**, **Intelligence Artificielle** et **Données de Santé**. 
+**Transformer les données en connaissances, et l’intelligence artificielle en outils utiles au soin.**
 
-🌐 **Voir le portfolio en ligne :** [https://hajar-abd.github.io/hajar_abdaoui_portfolio/](https://hajar-abd.github.io/hajar_abdaoui_portfolio/)
+Data Scientist et Ingénieure IA junior, diplômée d’un **Master 2 en Data Science en Santé, mention Très bien, à l’ILIS**, je conjugue compréhension des enjeux de santé, rigueur statistique et développement informatique.
 
-## 🎯 À propos de ce projet
+Mon parcours relie l’analyse de données multi-sources, l’automatisation de traitements et la conception d’agents IA intégrant des modèles de langage et des outils métiers.
 
-Ce portfolio a été conçu avec une approche minimaliste, fluide et "borderless", reflétant la rigueur scientifique et l'innovation technologique. Il est entièrement bilingue (Français/Anglais) pour s'adapter à un environnement professionnel international.
+Basée à **Lille**, je recherche un premier poste en **Data Science, Intelligence Artificielle ou Data/AI Engineering**.
 
-### ✨ Fonctionnalités principales
-- **Architecture Bilingue :** Changement de langue FR/EN natif sans rechargement de page.
-- **Design UI/UX Fluide :** Interface "One-Page" avec smooth-scrolling, typographie éditoriale contrastée et espace négatif pour une lecture optimale.
-- **Formulaire de contact fonctionnel :** Intégration sécurisée via Formspree.
-- **Responsive Design :** Adapté aux formats mobiles, tablettes et desktop.
+## À propos de ce projet
 
-## 🛠️ Stack Technique
+Ce dépôt contient le code source de mon portfolio : un espace pour découvrir mon parcours, mes formations, mes compétences et une sélection de mes réalisations.
 
-Ce projet est volontairement développé de manière statique et allégée, sans framework lourd, pour garantir des performances optimales :
-- **HTML5** (Sémantique et accessibilité)
-- **CSS3** (Animations fluides, CSS Grid/Flexbox, variables natives)
-- **JavaScript (ES6)** (Gestion de la traduction et des événements DOM)
+Son design **fluide et borderless** privilégie les espaces ouverts, les alignements asymétriques et une typographie éditoriale. Une palette rose lumineuse et des animations discrètes accompagnent la lecture, dans un parcours continu au fil du scroll.
 
-## 🔬 Mon Expertise
+Le site est disponible en **français et en anglais**, avec un changement de langue instantané, sans rechargement. Sa mise en page s’adapte aux écrans mobiles et tient compte des préférences de réduction des animations.
 
-Actuellement en Master 2 Data Science en Santé, je me spécialise dans :
-- **L'Intelligence Artificielle Agentique & LLMs :** Architecture de systèmes multi-cerveaux (ex: projet Charlie) et ingénierie de prompts.
-- **Modélisation Statistique :** Analyse de séries temporelles (R, auto.arima) et tests diagnostiques.
-- **Analyse de Données de Santé :** Exploitation de bases de données génomiques et épidémiologiques (Python, Jupyter, bases NCBI).
+## Mon Expertise & Mes Projets
 
-## 📬 Me contacter
+### De l’analyse à l’application
 
-N'hésitez pas à me contacter pour échanger sur des problématiques liées à la data, l'IA en santé, ou pour toute opportunité de collaboration.
+- **Programmation & données :** Python, R, SQL, préparation de données multi-sources, pipelines ETL et automatisation.
+- **Analyse & modélisation :** statistiques, séries temporelles, machine learning, deep learning et interprétation des résultats.
+- **IA générative & architectures agentiques :** LLM, tool calling, prompt engineering, orchestration d’outils et intégration de services vocaux.
+- **Visualisation & restitution :** Power BI, Shiny, Dash et R Markdown pour rendre les résultats lisibles et exploitables.
+- **Intégration & déploiement :** FastAPI, API REST, vLLM, environnements GPU/cloud et gestion de versions avec Git.
 
-- **Email :** abdaoui.hajar.1312@gmail.com
-- **GitLab :** [https://gitlab.com/hajar.abdaoui](https://gitlab.com/hajar.abdaoui)
-- **LinkedIn :** Hâjar Abdaoui
+### OEEIL - Industrialiser l’analyse de données de capteurs
+
+Conception et développement d’un **package Python** couvrant l’acquisition, le prétraitement, l’analyse, la visualisation et le reporting.
+
+Environ **30 fonctions réutilisables**, testées sur **plus de 130 000 mesures réelles**, permettent d’automatiser le traitement de données issues de plusieurs capteurs et de réutiliser ces traitements dans différents workflows d’analyse.
+
+### Système agentique en santé - Relier les LLM aux besoins des patients
+
+Développement d’un **agent IA conversationnel** pour l’accueil des patients, la gestion des rendez-vous et le suivi.
+
+Le projet associe une architecture agentique fondée sur des LLM, des appels d’outils métiers et des services de reconnaissance et de synthèse vocales, avec des travaux de test et de déploiement sur infrastructure GPU/cloud.
+
+### OncoTrial Tracker — Explorer la recherche clinique
+
+Création d’un dashboard pour explorer les essais cliniques en oncologie recensés en France dans **ClinicalTrials.gov**, afin de faciliter leur analyse et leur visualisation.
+
+[Consulter le projet sur GitLab](https://gitlab.com/hajar.abdaoui/oncotrial_tracker)
+
+### Analyses statistiques en santé
+
+Deux études illustrent ma pratique analytique :
+
+- **Séries temporelles :** application du lissage exponentiel aux cas mensuels de varicelle à New York. [Voir le projet](https://gitlab.com/hajar.abdaoui/tp_lissage_exponentiel)
+- **Données cliniques :** étude du lien entre antécédents pulmonaires et complications cardiaques après un infarctus du myocarde. [Voir le projet](https://gitlab.com/hajar.abdaoui/rapport_infarctus_myocarde)
+
+*Pour découvrir l'ensemble de mes projets et explorer mon code source, n'hésitez pas à visiter mon profil GitLab ou mon GitHub.*
+
+## Stack Technique du Portfolio
+
+Une approche légère, **sans framework ni étape de compilation** :
+
+| Technologie | Rôle |
+| --- | --- |
+| **HTML5** | Structure sémantique, contenus et formulaire de contact |
+| **CSS3** | Mise en page responsive, typographie, ambiances organiques et animations |
+| **JavaScript natif** | Gestion du français et de l’anglais, interactions et traitement du formulaire |
+| **Formspree** | Service d’envoi des messages de contact |
+
+Les polices **Fraunces** et **Inter** sont hébergées localement. Les contenus bilingues sont centralisés pour faciliter leur évolution.
+
+## Contact
+
+Vous recrutez en Data Science ou en IA, ou souhaitez échanger autour des données de santé ? Je serais ravie de vous rencontrer.
+
+- **Email :** [abdaoui.hajar.1312@gmail.com](mailto:abdaoui.hajar.1312@gmail.com)
+- **GitHub :** [github.com/hajar-abd](https://github.com/hajar-abd)
+- **GitLab :** [gitlab.com/hajar.abdaoui](https://gitlab.com/hajar.abdaoui)
