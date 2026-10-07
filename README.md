@@ -38,7 +38,7 @@ Développement d’un **agent IA conversationnel** pour l’accueil des patients
 
 Le projet associe une architecture agentique fondée sur des LLM, des appels d’outils métiers et des services de reconnaissance et de synthèse vocales, avec des travaux de test et de déploiement sur infrastructure GPU/cloud.
 
-### OncoTrial Tracker — Explorer la recherche clinique
+### OncoTrial Tracker - Explorer la recherche clinique
 
 Création d’un dashboard pour explorer les essais cliniques en oncologie recensés en France dans **ClinicalTrials.gov**, afin de faciliter leur analyse et leur visualisation.
 
