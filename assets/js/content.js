@@ -1,6 +1,16 @@
-// Textes éditables du portfolio. Garder les mêmes clés dans fr et en.
+// Editable portfolio copy. Keep the same keys in fr and en.
 export const CONTENT = {
   "fr": {
+    "degreeCertificate": "Voir l’attestation de réussite",
+    "masterCertificateLabel": "Voir l’attestation de réussite du master (nouvel onglet)",
+    "bachelorCertificateLabel": "Voir l’attestation de réussite de la licence (nouvel onglet)",
+    "credentialsHeading": "Certifications et accréditations",
+    "databricksDate": "26 octobre 2026",
+    "databricksTitle": "Databricks fundamentals",
+    "databricksIssuer": "Accréditation délivrée par databricks academy",
+    "databricksDescription": "Fondamentaux de la plateforme databricks, de l’architecture lakehouse et de la gestion des données.",
+    "credentialView": "Vérifier l’accréditation",
+    "projectPackageView": "Voir le package sur pypi",
     "skip": "Aller au contenu",
     "navLabel": "Navigation principale",
     "languageLabel": "Choisir la langue",
@@ -144,6 +154,16 @@ export const CONTENT = {
     "timeout": "Nous n’avons pas pu confirmer l’envoi dans le délai prévu. Votre texte a été conservé. Réessayez ou contactez-moi par email."
   },
   "en": {
+    "degreeCertificate": "View degree completion certificate",
+    "masterCertificateLabel": "View master’s degree completion certificate (new tab)",
+    "bachelorCertificateLabel": "View bachelor’s degree completion certificate (new tab)",
+    "credentialsHeading": "Certifications and accreditations",
+    "databricksDate": "26 October 2026",
+    "databricksTitle": "Databricks fundamentals",
+    "databricksIssuer": "Accreditation issued by databricks academy",
+    "databricksDescription": "Fundamentals of the databricks platform, lakehouse architecture and data management.",
+    "credentialView": "Verify accreditation",
+    "projectPackageView": "View the package on pypi",
     "skip": "Skip to content",
     "navLabel": "Main navigation",
     "languageLabel": "Choose your language",
