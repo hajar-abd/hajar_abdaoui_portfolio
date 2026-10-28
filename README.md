@@ -53,14 +53,14 @@ Le projet associe une architecture agentique fondée sur des LLM, des appels d�
 
 Création d’un dashboard pour explorer les essais cliniques en oncologie recensés en France dans **ClinicalTrials.gov**, afin de faciliter leur analyse et leur visualisation.
 
-[Consulter le projet sur GitLab](https://gitlab.com/hajar.abdaoui/oncotrial_tracker)
+[Consulter le projet sur Github](https://github.com/hajar-abd/oncotrial_tracker)
 
 ### Analyses statistiques en santé
 
 Deux études illustrent ma pratique analytique :
 
-- **Séries temporelles :** application du lissage exponentiel aux cas mensuels de varicelle à New York. [Voir le projet](https://gitlab.com/hajar.abdaoui/tp_lissage_exponentiel)
-- **Données cliniques :** étude du lien entre antécédents pulmonaires et complications cardiaques après un infarctus du myocarde. [Voir le projet](https://gitlab.com/hajar.abdaoui/rapport_infarctus_myocarde)
+- **Séries temporelles :** application du lissage exponentiel aux cas mensuels de varicelle à New York. [Voir le projet](https://github.com/hajar-abd/tp_lissage_exponentiel)
+- **Données cliniques :** étude du lien entre antécédents pulmonaires et complications cardiaques après un infarctus du myocarde. [Voir le projet](https://github.com/hajar-abd/rapport_infarctus_myocarde)
 
 *Pour découvrir l'ensemble de mes projets et explorer mon code source, n'hésitez pas à visiter mon profil GitLab ou mon GitHub.*
 
